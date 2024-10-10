@@ -10,43 +10,46 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Arial', sans-serif;
-    color: #fff;
+    color: #7e8;
 }
 
 #calculadora table {
     border-collapse: collapse;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    overflow: hidden;
+    box-shadow: 0 7px 14px rgba(7, 14, 21, 0.5);
+    border-radius: 7px;
+    overflow: scroll;
 }
 
 #calculadora input {
     width: 100%;
-    padding: 15px;
-    font-size: 1.5em;
-    border: none;
-    background-color: #2d3e50;
-    color: white;
-    text-align: right;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    padding: 7px;
+    font-size: 1em;
+    border: bold;
+    background-color: #7e5;
+    color: tomato;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 #calculadora input:focus {
-    outline: none;
+    outline-offset: 7px;
+    outline-width: 7px;
+    outline-color: #c3a;
+    outline-style: solid;
 }
 
 #calculadora button {
-    background-color: #34495e;
-    border: none;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    background-color: #5c3a18;
+    border: outset;
+    color: #f6d4b2;
+    font-weight: initial;
+    cursor: crosshair;
+    transition: background-color 0.1s;
 }
 
 #calculadora button:hover {
-    background-color: #2c3e50;
+    background-color: #907e5c;
 }
 
 #calculadora button:focus {
